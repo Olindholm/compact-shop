@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modification  
     application="Heroes of Newerth"
-    appversion="-*"
+    appversion="*"
     mmversion="1.3"
     name="St0l3n_ID Compact Shop"
-    version="0.9.9"
-    description="Its known that the sell areas are a little bit off
--Patched into new item-update system (mostly background work u wont notice)
--Smaller then ever before :)
--Category height reduced!
--Filters now also have quickslots
--Back Button (randomly working)
-
-
-Get Bang! libDoc to see ingame Changelog!"
+    version="1.0.0"
+    description="A more compact shop which doesn't cover the entire screen!"
     author="St0l3n_ID (fixed by Wiggy boy)"
-			  weblink="http://stolenid.kilu.de/St0l3nID_ComSho_Changelog.txt"
-	   updatecheckurl="http://stolenid.kilu.de/St0l3nID_ComSho_Version.txt"
-	updatedownloadurl="http://stolenid.kilu.de/St0l3nID_CompactShop.honmod"
 >
 
 
