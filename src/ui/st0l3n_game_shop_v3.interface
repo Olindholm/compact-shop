@@ -808,7 +808,7 @@
 			color="invisible"
 			visible="0"
 			watch="PlayerCanShop"
-			ontrigger="PlaySound('/shared/sounds/ui/shop_show.wav'); If(!param, CloseShop()); If(param, SetDefaultActiveShop());"
+			ontrigger="PlaySound('/shared/sounds/ui/shop_show.wav'); If(param, SetDefaultActiveShop());"
 			onshow=""
 			watch0="ShopActive"
 			ontrigger0="SetVisible(param and !cg_useNewShop2);"
