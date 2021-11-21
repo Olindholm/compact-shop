@@ -1,0 +1,87 @@
+Version-Note:
+Modification-Versions with 4 Numbers are Tester-Versions
+Main.Sub.Fix.Tester - Version
+
+^970Version 1.0.1^*
+-------------
+^292-^* Implemented S2 Drag'n Drop QuickItems
+^292-^* First Prototype of AUTOBUY (hell yeah ;D )
+^717*^* Fancy Drag'n Drop included :P
+^292-^* Fixed a small graphical bug with an design Border
+
+
+
+
+
+
+^970Version 0.9.3^*
+-------------
+^292-^* Quick patched to work with new interface-syntax
+^292-^* This Changelog has now color (had it always, but wrong code-,-)
+
+
+^970Version 0.9^*
+-------------
+^292-^* Deleted Checkbox (as promised)
+^292-^* Deleted Alpha-Slider
+^292-^* Changes on Guide Area
+^717*^* Top Aligned
+^717*^* Rating Panel now on the right side
+^717*^* 30% Smaller Rating Panel
+^292-^* Added new backgrounds for a more clear style
+^292-^* Added LMB/RMB switch, buy with left click :)
+^717*^* Optional -> Go to Options/Mods/
+
+
+^970Version 0.8^*
+-------------
+^292-^* mimicked S2 Patch to a certain degree
+^717*^* Added Quick-Supply-Slots
+^717*^* Additional Recipe Tree behavior for QuickSupplySlots
+^717*^* Deleted Secret Shop and added Legendary shop
+^717*^* Fixed Anim bugs caused by new order
+^717*^* Took over some bugfixes made by s2
+^292-^* Combined Search and Category Panel on the upper left
+^717*^* Made the 'book' Scaleable and scaled it down to fit better
+^717*^* Deleted the Label Showing if Filter or Category is active
+^292-^* Slight rework on Guide area
+^717*^* the Detailed Description now shows one more line
+^717*^* Item Header wont overlap with Items anymore
+^717*^* Streched Combobox to use given space and show full guide name
+^717*^* Added the 'Featured' Label (smaller and slight other color)
+^717*^* Added 'Featured' icon in the Guidelist
+^717*^* Added Ctrl recipes as S2 did
+^292-^* Removed Background on guides and items
+^292-^* Brought the Checkbox back till i fix the bug :P
+^292-^* Copied, merged, changed, and rewrote hell lot of code, as S2 did
+some neat coding and changed the mechanic how items get updated,
+to being able to implement eventuall additions from s2 later.
+^292-^* Added Quickslots to filters (else space would be wasted)
+
+
+^970Version 0.7.2^*
+-------------
+^292-^* Much smaller Guide-Area
+^292-^* Chanegs on recipe tree
+^717*^* Changed Opacity to ignore the alpha slider
+^717*^* Added some kind of back button, doesnt work 100% atm :/
+^292-^* Reduced Item-Area Height
+
+^970Version 0.6.5^*
+-------------
+^292-^* Rewrote all those fency lil positions in the recipe tree to make them percentage values...
+^717->^*Goal is to make it scaleable to a certain degree
+^292-^* Recipe Tree is now on location of the item instead of the original fixed-window behavior ;)
+^717*^* Fixed Animations somehow... for now
+^717*^* Smaller Tree
+
+
+^970Version 0.5^*
+-------------
+^292-^* First Release, 0.5 cause i'm not nearly finished
+^292-^* Updateable
+^292-^* Supports Lib Doc by Bangerz
+^292-^* Reduces shoppanel size by 50%
+^717*^* moves the Recipe Tree panel to the left
+^717*^* Removes the Header from the Itempanel
+^717*^* No background image :P

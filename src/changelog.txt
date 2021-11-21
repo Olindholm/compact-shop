@@ -1,0 +1,78 @@
+Version-Note:
+Modification-Versions with 4 Numbers are Tester-Versions
+Main.Sub.Fix.Tester - Version
+
+-mimicked S2 patch
+*Quick Item Slots configureable
+*Some small Translation changes
+
+
+Version 0.9.3
+-------------
+-Quick patched to work with new interface-syntax
+
+
+Version 0.9
+-------------
+-Deleted Checkbox (as promised)
+-Deleted Alpha-Slider
+-Changes on Guide Area
+*Top Aligned
+*Rating Panel now on the right side
+*30% Smaller Rating Panel
+-Added new backgrounds for a more clear style
+-Added LMB/RMB switch, buy with left click :)
+*Optional -> Go to Options/Mods/
+
+
+Version 0.8
+-------------
+-mimicked S2 Patch to a certain degree
+*Added Quick-Supply-Slots
+*Additional Recipe Tree behavior for QuickSupplySlots
+*Deleted Secret Shop and added Legendary shop
+*Fixed Anim bugs caused by new order
+*Took over some bugfixes made by s2
+-Combined Search and Category Panel on the upper left
+*Made the 'book' Scaleable and scaled it down to fit better
+*Deleted the Label Showing if Filter or Category is active
+-Slight rework on Guide area
+*the Detailed Description now shows one more line
+*Item Header wont overlap with Items anymore
+*Streched Combobox to use given space and show full guide name
+*Added the 'Featured' Label (smaller and slight other color)
+*Added 'Featured' icon in the Guidelist
+*Added Ctrl recipes as S2 did
+-Removed Background on guides and items
+-Brought the Checkbox back till i fix the bug :P
+-Copied, merged, changed, and rewrote hell lot of code, as S2 did
+some neat coding and changed the mechanic how items get updated,
+to being able to implement eventuall additions from s2 later.
+-Added Quickslots to filters (else space would be wasted)
+
+
+Version 0.7.2
+-------------
+-Much smaller Guide-Area
+-Changes on recipe tree
+*Changed Opacity to ignore the alpha slider
+*Added some kind of back button, doesnt work 100% atm :/
+-Reduced Item-Area Height
+
+Version 0.6.5
+-------------
+-Rewrote all those fency lil positions in the recipe tree to make them percentage values...
+-> Goal is to make it scaleable to a certain degree
+-Recipe Tree is now on location of the item instead of the original fixed-window behavior ;)
+*Fixed Animations somehow... for now
+*Smaller Tree
+
+Version 0.5
+-------------
+-First Release, 0.5 cause i'm not nearly finished
+-Updateable
+-Supports Lib Doc by Bangerz
+-Reduces shoppanel size by 50%
+*moves the Recipe Tree panel to the left
+*Removes the Header from the Itempanel
+*No background image :P

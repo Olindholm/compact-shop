@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+<instance  name="mod_options"  mod_id="St0l3n_ID_ComShop" mod_name = "St0l3n_IDs Compact Shop" />
+
+<!-- Controlling Part -->
+<instance
+	name="mod_header"
+	mod_id="St0l3n_ID_ComShop"
+	label="Controll-Changes"
+	collapsed="0" show_collapse="0"   
+/>	
+<instance
+	name="mod_checkbox"
+	mod_id ="St0l3n_ID_ComShop"
+	label="Switch LMB/RMB action"
+	cvar="switchLMB_RMB"
+	default="false"
+	tooltip="Switches Left Mouse Button and Right Mouse Button on all Shop items"
+/> 
+<instance
+	name="mod_empty"
+	mod_id ="St0l3n_ID_ComShop"
+/> 
+<!-- Not necessary at all ;) 
+<instance
+    name="mod_button"
+	mod_id ="St0l3n_ID_ComShop"
+    layout="empty"
+	label="Apply (only necessary if ingame)"
+    cmd="Cmd(\\\'reloadinterface game\\\');"
+/> -->
+</package>

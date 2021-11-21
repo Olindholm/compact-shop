@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification  
+    application="Heroes of Newerth"
+    appversion="-*"
+    mmversion="1.3"
+    name="St0l3n_ID Compact Shop"
+    version="0.9.8"
+    description="Its known that the sell areas are a little bit off
+-Patched into new item-update system (mostly background work u wont notice)
+-Smaller then ever before :)
+-Category height reduced!
+-Filters now also have quickslots
+-Back Button (randomly working)
+
+
+Get Bang! libDoc to see ingame Changelog!"
+    author="St0l3n_ID"
+			  weblink="http://stolenid.kilu.de/St0l3nID_ComSho_Changelog.txt"
+	   updatecheckurl="http://stolenid.kilu.de/St0l3nID_ComSho_Version.txt"
+	updatedownloadurl="http://stolenid.kilu.de/St0l3nID_CompactShop.honmod"
+>
+
+
+	<copyfile name="ui/common/new_shop_interface/tree_right_1_black.tga" />
+	<copyfile name="ui/common/new_shop_interface/tree_right_2_black.tga" />
+	<copyfile name="ui/common/new_shop_interface/tree_right_3_black.tga" />
+	<copyfile name="ui/common/new_shop_interface/tree_right_4_black.tga" />
+	
+	<copyfile name="ui/common/new_shop_interface/tree_left_1_black.tga" />
+	<copyfile name="ui/common/new_shop_interface/tree_left_2_black.tga" />
+	<copyfile name="ui/common/new_shop_interface/tree_left_3_black.tga" />
+	<copyfile name="ui/common/new_shop_interface/tree_left_4_black.tga" />
+	
+	<copyfile name="ui/common/new_shop_interface/shop_body_half.tga" />
+	<copyfile name="ui/common/new_shop_interface/shop_tree_body_center_new.tga" />
+	<copyfile name="ui/common/new_shop_interface/right_circle_frame_black.tga" />
+	<copyfile name="ui/common/new_shop_interface/left_circle_frame_black.tga" />
+
+	
+	<copyfile name="ui/st0l3n_game_shop_v3.interface"					/>
+	<copyfile name="ui/mod_options_ShopElements_stolen.package"			/>
+
+	<editfile name="ui/game.interface">
+			<find><![CDATA[<childinterface file="game_shop_v3.interface" />]]></find>
+		 <replace><![CDATA[<childinterface file="st0l3n_game_shop_v3.interface" />]]></replace>
+	</editfile>
+	
+	<!-- Options -->
+	<editfile name="ui/mod_options_elements.package">
+		<find><![CDATA[<!-- INSERT AFTER THIS -->]]></find>
+		<insert position="after"><![CDATA[
+			<include file="/ui/mod_options_ShopElements_stolen.package"/>]]>
+		</insert>
+	</editfile>
+
+
+	<!-- Changelog Bangerz -->
+	 <applyafter 	name="Bang! libDoc" 				version="-*" /> 
+	 <copyfile 		name="ui/fe2/libDoc/ComSho.txt"  	source="changelog_color.txt" />  
+	 
+	 <editfile name="ui/fe2/bang_libDoc.package" condition="'Bang!  libDoc'">    
+		<find><![CDATA[<!-- libDoc: INSERT YOUR INSTANCES AFTER THIS COMMENT -->]]></find>    
+		<insert position="after"><![CDATA[ 
+			<instance name="bang_libDoc" mod="ComSho" label="St0l3n_ID Compact Shop" />
+		]]></insert>
+	 </editfile>
+</modification>
